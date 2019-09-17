@@ -13,7 +13,7 @@
   <body>
      首页
      <h3>欢迎你：${pageContext.request.getAttribute("username")}</h3>
-     <h3>这里是Session跳转的用户名：${[pageContext.request.getAttribute("username")]}</h3>>
+     <h3>这里是Session跳转的11用户名：${[pageContext.request.getAttribute("username")]}</h3>>
      <a href="HML.html "target="_blank">点击返回登陆</a>;
   </body>
 </html>
